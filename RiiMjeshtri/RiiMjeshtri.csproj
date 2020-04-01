@@ -76,5 +76,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RiiMjeshtri.BLL\RiiMjeshtri.BLL.vbproj">
+      <Project>{6fa36547-e31a-4ff6-872d-da5ad9933f7b}</Project>
+      <Name>RiiMjeshtri.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RiiMjeshtri.BO\RiiMjeshtri.BO.vbproj">
+      <Project>{c5ab50f4-5469-48be-935f-2e965ed382dc}</Project>
+      <Name>RiiMjeshtri.BO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
